@@ -87,6 +87,15 @@ public StudentList(AssetManager asset) {
 }
 ```
 
+Πιθανό error κατά την εκτέλεση του Integer.parseInt λόγω του κενού ```   9,``` από το αρχείο xml. Απαιτούσε την χρήση trim()
+
+```java
+...
+st.addGrade(Integer.parseInt(grade.trim()));
+...
+```
+
+
 Απαιτούσε τη χρήση του `Spinner`, κάτι που δεν υπήρχε έτοιμο στη διδακτέα ύλη:
 
 ```java
