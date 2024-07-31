@@ -24,7 +24,7 @@ public class StudentList {
         ArrayList<Student> stdTemp = new ArrayList<>();
 
         try {
-            InputStream is = asset.open("students_resource.xml");
+            InputStream is = asset.open("students.xml");
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
