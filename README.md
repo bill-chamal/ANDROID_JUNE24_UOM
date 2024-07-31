@@ -29,6 +29,22 @@ private double calcAverageGrade(Student st) {
 }
 ```
 
+Εμφάνιση σχετικού μηνύματος βάσει του παραπάνω:
+
+```java
+public void onClickButton(View view) {
+    String selectedName = sp.getSelectedItem().toString();
+    String av = stdL.findAverage(selectedName);
+    // Show toast for average grade
+    if (av.equals("0.0")) {
+        Toast.makeText(getApplicationContext(), "He didn't pass any lesson (AV=0)", Toast.LENGTH_LONG).show();
+    } else {
+        Toast.makeText(getApplicationContext(), "Average grade: " + av, Toast.LENGTH_LONG).show();
+    }
+}
+```
+
+
 Στον έτοιμο κώδικα έπρεπε να τροποποιηθεί ώστε να δέχεται ως όρισμα το `AssetManager`.
 
 ```java
@@ -67,21 +83,6 @@ public StudentList(AssetManager asset) {
 
     } catch (IOException | SAXException | ParserConfigurationException e) {
         e.printStackTrace();
-    }
-}
-```
-
-Εμφάνιση σχετικού μηνύματος βάσει του παραπάνω:
-
-```java
-public void onClickButton(View view) {
-    String selectedName = sp.getSelectedItem().toString();
-    String av = stdL.findAverage(selectedName);
-    // Show toast for average grade
-    if (av.equals("0.0")) {
-        Toast.makeText(getApplicationContext(), "He didn't pass any lesson (AV=0)", Toast.LENGTH_LONG).show();
-    } else {
-        Toast.makeText(getApplicationContext(), "Average grade: " + av, Toast.LENGTH_LONG).show();
     }
 }
 ```
