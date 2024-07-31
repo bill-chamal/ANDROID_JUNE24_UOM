@@ -131,3 +131,21 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ![Screenshot of the app](img/scr1.png)
 
+# Android Studio Version
+
+**Recreated with:**
+
+```
+Android Studio Ladybug | 2024.1.3 Canary 3
+Build #AI-241.18034.62.2413.12138059, built on July 25, 2024
+Runtime version: 21.0.3+-12099254-b509.4 amd64
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Linux 6.10.2-zen1-1-zen
+GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+Memory: 2048M
+Cores: 8
+Registry:
+  ide.experimental.ui=true
+Current Desktop: Hyprland
+```
+
