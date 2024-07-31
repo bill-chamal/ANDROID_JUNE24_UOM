@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students>
+    <student>
+        <name>Papadim Nefos</name>
+        <grades>1, 0, 0, 1 , 2, 3, 4, 4, 4</grades>
+    </student>
+
+    <student>
+        <name>Achilles</name>
+        <grades>7, 8, 9, 6</grades>
+    </student>
+
+    <student>
+        <name>Christos</name>
+        <grades>2, 9, 4, 1</grades>
+    </student>
+
+    <student>
+        <name>Thomas</name>
+        <grades>5, 5, 5, 9</grades>
+    </student>
+
+    <student>
+        <name>Alexander</name>
+        <grades> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</grades>
+    </student>
+
+    <student>
+        <name>Nikolai</name>
+        <grades>1, 0, 0, 0, 3, 5, 10, 10, 10, 10</grades>
+    </student>
+</students>
