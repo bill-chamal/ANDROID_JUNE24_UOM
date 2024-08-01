@@ -45,7 +45,7 @@ public void onClickButton(View view) {
 ```
 
 
-Στον έτοιμο κώδικα έπρεπε να τροποποιηθεί ώστε να δέχεται ως όρισμα το `AssetManager`.
+Ο έτοιμος κώδικας έπρεπε να τροποποιηθεί ώστε να δέχεται ως όρισμα το `AssetManager`.
 
 ```java
 public StudentList(AssetManager asset) {
